@@ -14,4 +14,4 @@ The datasets needed to run the notebook are also provided in the repository.
 ## Setup
 We assume a working Anaconda installation. 
 
-To create the environment run `conda create -n scrap python=3.11.6 pandas=2.1.1 numpy=1.24.3 matplotlib=2.1.3 seaborn=0.12.2 scikit-learn=1.3.0 shap=0.43.0` and then `conda activate scrap`. Finally run `jupyter notebook` to start the notebook.
+To create the environment run `conda create -n scrap pandas numpy matplotlib seaborn scikit-learn shap jupyter`, then `conda activate scrap` and `pip install anti-clustering`. Finally run `jupyter notebook ./code.ipynb` to start the notebook.
